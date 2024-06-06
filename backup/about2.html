@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* color palette
+yellow  #FFD064
+blue #C2E1E5
+beige #FAF6E7
+light pink #F3D7CA
+pink #E6A4B4 
+heart red #F54E4E*/
+
+      .home {
+        display: flex;
+        align-items: center;
+        min-height: 90vh;
+        background: url(img/home.png) no-repeat;
+        background-size: cover;
+        background-position: right center;
+        background-color: #f3d7ca;
+      }
+
+      .home .content {
+        max-width: 50rem;
+      }
+
+      .home .content h3 {
+        font-size: 6rem;
+        color: #e6a4b4;
+      }
+
+      .home .content span {
+        font-size: 3.5rem;
+        color: #faf6e7;
+        padding: 1rem 0;
+        line-height: 1.5;
+      }
+
+      .home .content p {
+        font-size: 1.5rem;
+        color: #999;
+        padding: 1rem 0;
+        line-height: 1.5;
+        text-transform: none;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 5rem;
+        background: #e6a4b4;
+        color: #faf6e7;
+        padding: 0.9rem 3.5rem;
+        cursor: pointer;
+        font-size: 1.7rem;
+      }
+
+      .btn:hover {
+        background: #faf6e7;
+        color: #e6a4b4;
+      }
+
+      .about {
+        background: #e6a4b4;
+      }
+
+      .about .row {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        background: #e6a4b4;
+      }
+
+      .about .heading {
+        padding-top: 0;
+        background: none;
+        color: #faf6e7;
+      }
+
+      h3 span {
+        color: #c2e1e5;
+      }
+
+      .about .row .video-container {
+        flex: 1 1 40rem;
+        position: relative;
+        background: #e6a4b4;
+      }
+
+      .about .row .video-container video {
+        width: 100%;
+        border: 1.5rem solid #c2e1e5;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.041);
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .about .row .video-container h3 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 3rem;
+        color: #faf6e7;
+        background: #c2e1e5;
+        width: 100%;
+        padding: 1rem 2rem;
+        text-align: center;
+        mix-blend-mode: screen;
+      }
+
+      .about .row .content {
+        flex: 1 1 40rem;
+        background: #e6a4b4;
+      }
+
+      .about .row .content h3 {
+        font-size: 3rem;
+        color: #faf6e7;
+        background: #e6a4b4;
+      }
+
+      .about .row .content p {
+        text-transform: none;
+        font-size: 1.5rem;
+        color: #faf6e7;
+        background: #e6a4b4;
+        padding-top: 1.5rem;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+      <div class="row">
+        <div class="video-container">
+          <video src="img/video.mp4" loop autoplay muted></video>
+          <h3>Best Bakery</h3>
+        </div>
+        <div class="content">
+          <h3>why choose <span>us</span></h3>
+          <p>Blossom adalah platform eksklusif yang menawarkan keindahan perhiasan cantik yang dibuat dengan teliti menggunakan manik-manik pilihan, disajikan dengan elegansi yang memukau.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

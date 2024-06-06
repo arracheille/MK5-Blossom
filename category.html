@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/product-item.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <input type="checkbox" name="" id="toggler" />
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="" class="logo"><img src="img/33.png" alt="" />Blossom</a>
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="category.html" style="color: #e6a4b4">Category</a>
+          <a href="cart.html">My Cart</a>
+          <a href="account.html">Profile</a>
+          <a href="index.html" style="color: #e6a4b4">Sign Out</a>
+        </nav>
+      </header>
+    </section>
+
+    <section class="landing" id="landing">
+      <div class="landing-image">
+        <img src="img/11.png" alt="" />
+      </div>
+    </section>
+
+    <section class="search-loc" id="searchloc">
+      <div class="loc-container">
+        <div class="loc-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+          </svg>
+        </div>
+        <div class="location">
+          <p>Location</p>
+          <select name="Location" id="select-location">
+            <option value="pwt-byms">Purwokerto, Banyumas</option>
+            <option value="pbg-byms">Purbalingga, Banyumas</option>
+            <option value="pbg-byms">Cilacap, Banyumas</option>
+            <option value="pbg-byms">Wonosobo, Jawa Tengah</option>
+            <option value="pbg-byms">Sumampir, Planet Lain</option>
+          </select>
+        </div>
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Cari..." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </section>
+
+    <section class="categories" id="categories">
+      <div class="header-sections">
+        <p class="header-text">Categories</p>
+      </div>
+      <div class="categories-container">
+        <div class="categories-content" id="bracelet">
+          <a href="bracelet.html">
+            <img src="img/10.png" alt="" />
+            <p class="categories-text">bracelets</p>
+          </a>
+        </div>
+        <div class="categories-content" id="keychain">
+          <a href="keychain.html">
+            <img src="img/20.png" alt="" />
+            <p class="categories-text">Key Chain</p>
+          </a>
+        </div>
+        <div class="categories-content" id="necklace">
+          <a href="necklace.html">
+            <img src="img/23.png" alt="" />
+            <p class="categories-text">Necklace</p>
+          </a>
+        </div>
+        <div class="categories-content" id="earrings">
+          <a href="earrings.html">
+            <img src="img/26.png" alt="" />
+            <p class="categories-text">Earrings</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="based-buttons">
+      <div class="buttons">
+        <button class="category-button" style="background-color: #c2e1e5; color: #faf6e7">
+          All
+          <div class="all-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
+            </svg>
+          </div>
+        </button>
+        <button class="category-button">Newest</button>
+        <button class="category-button">Popular</button>
+        <button class="category-button">
+          Price
+          <div class="up-down"></div>
+          <i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="popular-product" id="popular">
+      <div class="header-sections">
+        <p class="header-text">Popular Products</p>
+        <a href="category.html" class="see-all">See All</a>
+      </div>
+      <div class="product-container">
+        <div class="product-content">
+          <a href="product.html">
+            <div class="product-img">
+              <img src="img/1.jpg" alt="product-image" />
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="name-rating">
+              <p class="product-name">Bracelet</p>
+              <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <p class="rating">4.8</p>
+              </div>
+            </div>
+            <div class="price">
+              <p class="ori-price">Rp. 50.000</p>
+              <p class="discount">Rp.40.999</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/2.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">Beads Set</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/5.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">beaded hairclip</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/7.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/12.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">dragon vale</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/13.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/16.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/17.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">beaded hairclip</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/18.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">cute rings</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/19.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/21.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">necklace</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/22.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">keychain</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/25.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/27.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/28.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/29.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">bracelet</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/32.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">beads set</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/34.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">rings</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/35.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">rings</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+        <div class="product-content">
+          <div class="product-img">
+            <img src="img/37.jpg" alt="product-image" />
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="name-rating">
+            <p class="product-name">Keychain</p>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <p class="rating">4.8</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp.40.999</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="header-footer">Blossom</p>
+          <p class="text-footer">Blossom, platform eksklusif untuk perhiasan manik-manik cantik. <span>Wanna be pretty? go to Blossom only!</span></p>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">locations</p>
+          <a href="https://goo.gl/maps/jCyYfdPkaFruz9Hf8">purwokerto</a>
+          <a href="https://goo.gl/maps/PZ72CHzw1Hh52Xne9">purbalingga</a>
+          <a href="https://goo.gl/maps/JbuP68CiUU7xZhDu8">cilacap</a>
+          <a href="https://goo.gl/maps/eutioHP34Yq2QGHo7">wonosobo</a>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">our info</p>
+          <a href="#"><i class="fa-solid fa-phone"></i>+6285879334272</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i>blossom@gmail.com</a>
+          <a href="https://instagram.com/aiachaell?igshid=YTQwZjQ0NmI0OA=="><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="https://goo.gl/maps/jCyYfdPkaFruz9Hf8"><i class="fa-brands fa-whatsapp"></i>whatsapp</a>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">blossom app</p>
+          <img src="img/Blossom App_qrcode.png" alt="" style="width: 7rem" />
+          <a href="https://www.figma.com/file/Jxh2a0FRQZOUt1LD0dKS6s/Untitled?type=design&node-id=0%3A1&mode=design&t=WTKVVZtTAL6jdTkR-1">get our app here</a>
+        </div>
+      </div>
+      <div class="credit">&copy; 2024 Blossom. All rights reserved.</div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mengambil kontainer produk
+        const productContainer = document.querySelector(".product-container");
+
+        // Mengambil konten dari product-items.html
+        fetch("product-items.html")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.text();
+          })
+          .then((data) => {
+            // Menambahkan konten product-items.html ke dalam product-container
+            productContainer.innerHTML = data;
+          })
+          .catch((error) => {
+            console.error("There was a problem fetching the product items:", error);
+          });
+      });
+      // Fungsi untuk mengacak array
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mengambil semua tombol kategori
+        const categoryButtons = document.querySelectorAll(".category-button");
+
+        // Mengambil kontainer produk
+        const productContainer = document.querySelector(".product-container");
+
+        // Menyimpan urutan asli dari .product-content
+        const originalProductContents = Array.from(productContainer.querySelectorAll(".product-content"));
+
+        // Fungsi untuk mengembalikan isi .product-content ke urutan semula
+        function resetProductContentOrder() {
+          // Menghapus semua elemen .product-content dari kontainer
+          productContainer.innerHTML = "";
+
+          // Menambahkan kembali elemen .product-content sesuai urutan asli
+          originalProductContents.forEach((productContent) => {
+            productContainer.appendChild(productContent);
+          });
+        }
+
+        // Menambahkan event listener untuk setiap tombol kategori
+        categoryButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Jika tombol "All" diklik, kembalikan isi .product-content ke urutan semula
+            if (this.textContent.trim() === "All") {
+              resetProductContentOrder();
+            } else {
+              // Jika tombol selain "All" diklik, lakukan pengacakan isi .product-content
+              const productContents = Array.from(productContainer.querySelectorAll(".product-content"));
+              const shuffledProductContents = shuffleArray(productContents);
+
+              // Menghapus semua elemen .product-content dari kontainer
+              productContainer.innerHTML = "";
+
+              // Menambahkan kembali elemen .product-content yang sudah diacak
+              shuffledProductContents.forEach((productContent) => {
+                productContainer.appendChild(productContent);
+              });
+            }
+          });
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mengambil semua tombol kategori
+        const categoryButtons = document.querySelectorAll(".category-button");
+
+        // Menambahkan event listener untuk setiap tombol kategori
+        categoryButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Mengatur warna background dan teks tombol kategori yang diklik
+            categoryButtons.forEach((btn) => {
+              btn.style.backgroundColor = ""; // Menghapus warna background yang sebelumnya ditetapkan
+              btn.style.color = ""; // Menghapus warna teks yang sebelumnya ditetapkan
+
+              // Mengubah warna SVG di dalam tombol yang tidak diklik menjadi #777777
+              const svgIcons = btn.querySelectorAll("svg");
+              svgIcons.forEach((svgIcon) => {
+                svgIcon.style.fill = "#777777";
+              });
+            });
+            this.style.backgroundColor = "#c2e1e5"; // Mengatur warna background baru
+            this.style.color = "#faf6e7"; // Mengatur warna teks baru
+
+            // Mengatur warna SVG di dalam tombol yang diklik menjadi warna teks baru
+            const svgIconsClicked = this.querySelectorAll("svg");
+            svgIconsClicked.forEach((svgIconClicked) => {
+              svgIconClicked.style.fill = "#faf6e7";
+            });
+          });
+        });
+      });
+
+      // Ambil elemen hati
+      var heartIcon = document.querySelector(".fa-heart");
+
+      // Tambahkan event listener untuk klik
+      heartIcon.addEventListener("click", function () {
+        // Toggle class 'fa-regular' dan 'fa-solid'
+        heartIcon.classList.toggle("fa-regular");
+        heartIcon.classList.toggle("fa-solid");
+      });
+
+      // Tambahkan event listener untuk klik
+      heartIcon.addEventListener("click", function () {
+        // Tambahkan kelas 'clicked' untuk mengaktifkan animasi
+        heartIcon.classList.add("clicked");
+
+        // Hapus kelas 'clicked' setelah animasi selesai
+        setTimeout(function () {
+          heartIcon.classList.remove("clicked");
+        }, 300); // Waktu animasi dalam milidetik (0.3 detik)
+      });
+    </script>
+  </body>
+</html>

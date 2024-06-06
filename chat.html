@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/chat.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <div class="navbar-content">
+          <a href="product.html" class="logo"><i class="fa-solid fa-chevron-left" style="margin-right: 2rem"></i></a>
+          <div class="header-img"><img src="img/33.png" alt="" /></div>
+          <p>Blossom</p>
+        </div>
+        <div class="navbar-content">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+    </section>
+
+    <section class="chat-container">
+      <div class="chat-content">
+        <div class="time">
+          <p class="chat-time">14, Okt 2024</p>
+        </div>
+        <div class="chat-bubble-container">
+          <div class="chat-bubble-content-left">
+            <img src="img/chat-left-small.png" alt="" />
+          </div>
+          <div class="chat-bubble-content-right">
+            <img src="img/chat-right-small.png" alt="" />
+          </div>
+        </div>
+        <div class="chat-type-container">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="plus">
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+          </svg>
+          <div class="chat-type-content">
+            <input type="text" value="Type Something..." />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const input = document.querySelector(".chat-type-content input[type='text']");
+
+        // Saat input diklik, hapus nilai jika nilainya adalah "Type Something..."
+        input.addEventListener("click", function () {
+          if (input.value === "Type Something...") {
+            input.value = "";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

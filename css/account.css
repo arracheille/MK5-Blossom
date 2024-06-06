@@ -1,0 +1,100 @@
+/* color palette
+yellow  #FFD064
+blue #C2E1E5
+beige #FAF6E7
+light pink #F3D7CA
+pink #E6A4B4 
+heart red #F54E4E*/
+
+body,
+html {
+  background-color: #f3d7ca;
+}
+
+.profile-container {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.profile-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img img {
+  width: 25%;
+  border-radius: 50%;
+  border: solid 5px #faf6e7;
+}
+
+.profile-name {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #777777;
+}
+
+.profile-content-table {
+  background-color: white;
+  width: 80%;
+  border-radius: 1rem;
+  margin: 5rem 0;
+}
+
+.profile-content-table table {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile-content-table table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #cfcfcf;
+}
+
+.profile-content-table table tr:last-child {
+  border-bottom: none;
+}
+
+.profile-content-table table td {
+  padding: 1.7rem;
+}
+
+.profile-content-table table {
+  border-radius: 1rem;
+}
+
+.options-main {
+  display: flex;
+  align-items: center;
+}
+
+.options-main i {
+  margin-right: 1rem;
+  color: #e6a4b4;
+  font-size: 2rem;
+}
+
+.options-main p {
+  font-size: 1.7rem;
+  color: #777777;
+}
+
+.options-body i {
+  color: #777777;
+  font-size: 2rem;
+}

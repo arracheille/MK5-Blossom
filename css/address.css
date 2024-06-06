@@ -1,0 +1,116 @@
+/* color palette
+yellow  #FFD064
+blue #C2E1E5
+beige #FAF6E7
+light pink #F3D7CA
+pink #E6A4B4 
+heart red #F54E4E*/
+
+html {
+  background-color: #faf6e7;
+}
+
+header {
+  justify-content: flex-start;
+}
+
+header p {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.address {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  background-color: #e6a4b4;
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.add i {
+  color: #faf6e7;
+  margin-right: 2rem;
+}
+
+.add-text {
+  color: #faf6e7;
+}
+
+.address-container {
+  width: 100%;
+}
+
+.address-content {
+  width: 100%;
+  border: solid 2px #d0d5dd;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: 3rem 0;
+}
+
+.address-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address-main i {
+  color: #777777;
+  font-size: 2.2rem;
+}
+
+.address-main-heading {
+  display: flex;
+  align-items: center;
+}
+
+.address-main-heading i {
+  color: #e6a4b4;
+  font-size: 2.2rem;
+}
+
+.address-main-text {
+  color: #777777;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.address-description {
+  margin: 1.9rem 0;
+}
+
+.description {
+  color: #777777;
+  font-weight: bold;
+}
+
+.number {
+  color: #777777;
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
+
+.address-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view {
+  color: #e6a4b4;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.address-info i {
+  color: #777777;
+  font-size: 2.2rem;
+}

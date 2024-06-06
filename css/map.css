@@ -1,0 +1,189 @@
+/* color palette
+yellow  #FFD064
+blue #C2E1E5
+beige #FAF6E7
+light pink #F3D7CA
+pink #E6A4B4 
+heart red #F54E4E*/
+
+html {
+  background-color: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/map.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  justify-content: flex-start;
+  background: none;
+}
+
+.header-p {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #777777;
+}
+
+.map {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-address {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.find-address i {
+  color: #777777;
+  margin-right: 2rem;
+}
+
+.add-text {
+  color: #777777;
+}
+
+.address-map {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2rem 0;
+}
+
+.gps {
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  justify-content: flex-end;
+}
+
+.confirm-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1.3px #c0c0c0;
+  padding-bottom: 1rem;
+}
+
+.confirm-p {
+  color: #777777;
+  font-size: 1.3rem;
+}
+
+.confirm i {
+  color: #777777;
+  font-size: 2rem;
+}
+
+.confirm-address-map {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.confirm-address-map img {
+  width: 13rem;
+  margin-right: 2rem;
+}
+
+.description-address-map {
+  max-width: 30rem;
+}
+
+.description-address-map p {
+  color: #777777;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.confirm-add {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-add a {
+  background-color: #e6a4b4;
+  padding: 1.3rem 0;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.set-confirm-address-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.set-confirm-address-map p {
+  color: #777777;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+.map-set-addresses {
+  display: flex;
+  margin-bottom: 1.7rem;
+}
+
+.opt-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.3rem;
+  border: solid 2px #e6a4b4;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.opt-address i {
+  color: #e6a4b4;
+  font-size: 1.3rem;
+}
+
+.opt-address p {
+  color: #777777;
+  font-size: 1.3rem;
+}
+
+.form-address form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-address form input {
+  width: 100%;
+  border: solid 1.5px #777777;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}

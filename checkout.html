@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="product.html" class="logo"><i class="fa-solid fa-chevron-left" style="margin-right: 2rem"></i></a>
+        <div class="loc-container">
+          <div class="loc-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+            </svg>
+          </div>
+          <div class="location">
+            <p>Location</p>
+            <select name="Location" id="select-location">
+              <option value="pwt-byms">Purwokerto, Banyumas</option>
+              <option value="pbg-byms">Purbalingga, Banyumas</option>
+              <option value="pbg-byms">Cilacap, Banyumas</option>
+              <option value="pbg-byms">Wonosobo, Jawa Tengah</option>
+              <option value="pbg-byms">Sumampir, Planet Lain</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section class="product-checkout">
+      <div class="product-item-checkout">
+        <div class="product-image">
+          <img src="img/16.jpg" alt="" />
+        </div>
+        <div class="product-description">
+          <p class="description-name">Dragon Vale</p>
+          <div class="description-price">
+            <p class="ori-price">Rp. 70.000</p>
+            <p class="discount">Rp. 58.000</p>
+          </div>
+          <p class="description-type">Necklace</p>
+          <div class="description-notes-container">
+            <p class="notes">Color : <span>Random</span></p>
+            <p class="notes">Size : <span>10cm</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="transfer-cod">
+      <div class="transfer-cod-container">
+        <div class="transfer-cod-content" style="background-color: #e6a4b4">
+          <p>Transfer Bank</p>
+        </div>
+        <div class="transfer-cod-content">
+          <p>Cash On Delivery</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment">
+      <div class="payment-container">
+        <div class="payment-content" style="background-color: #f3d7ca">
+          <div class="payment-img">
+            <img src="img/bank-mandiri.png" alt="" />
+          </div>
+          <div class="payment-description">
+            <p class="payment-description-main">Cash On Delivery</p>
+            <p>Debit</p>
+          </div>
+        </div>
+        <div class="payment-content">
+          <div class="payment-img">
+            <img src="img/bank-mandiri.png" alt="" />
+          </div>
+          <div class="payment-description">
+            <p class="payment-description-main">Cash On Delivery</p>
+            <p>Debit</p>
+          </div>
+        </div>
+        <div class="payment-content">
+          <div class="payment-img">
+            <img src="img/bank-mandiri.png" alt="" />
+          </div>
+          <div class="payment-description">
+            <p class="payment-description-main">Cash On Delivery</p>
+            <p>Debit</p>
+          </div>
+        </div>
+        <div class="payment-content" style="margin-bottom: 17rem;">
+          <div class="payment-img">
+            <img src="img/bank-mandiri.png" alt="" />
+          </div>
+          <div class="payment-description">
+            <p class="payment-description-main">Cash On Delivery</p>
+            <p>Debit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-order">
+      <div class="summary-order-container">
+        <p class="summary">Summary Order</p>
+        <div class="sub-total">
+          <p>Sub Total :</p>
+          <p>Rp. 200.000</p>
+        </div>
+        <button class="btn-checkout">Check Out</button>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Temukan tombol "Check Out"
+        const checkoutButton = document.querySelector(".btn-checkout");
+
+        // Tambahkan event listener untuk klik pada tombol "Check Out"
+        checkoutButton.addEventListener("click", function () {
+          // Tampilkan SweetAlert
+          Swal.fire({
+            icon: "success", // Icon tampilan SweetAlert
+            title: "Order Confirmed!", // Judul SweetAlert
+            text: "Thank you for your order, you will receive email confirmation shortly", // Isi SweetAlert
+            confirmButtonColor: "#e6a4b4", // Warna tombol konfirmasi SweetAlert
+            confirmButtonText: "Continue", // Teks tombol konfirmasi SweetAlert
+          }).then((result) => {
+            // Setelah pengguna mengklik tombol "OK", arahkan ke halaman product.html
+            if (result.isConfirmed) {
+              window.location.href = "product.html";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

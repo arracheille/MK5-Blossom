@@ -1,0 +1,78 @@
+/* color palette
+yellow  #FFD064
+blue #C2E1E5
+beige #FAF6E7
+light pink #F3D7CA
+pink #E6A4B4 
+heart red #F54E4E*/
+
+.categories-container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-content {
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.categories-content img {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.categories-text {
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 1.7rem;
+  padding: 0.8rem 1.2rem;
+  color: #e6a4b4;
+  font-weight: bold;
+}
+
+.categories-content:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-button {
+  width: 15%;
+  padding: 1rem;
+  background-color: #faf6e7;
+  border: solid 3px #c2e1e5;
+  border-radius: 1rem;
+  color: #777;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-down {
+  margin-left: 1rem;
+}
+
+.all-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1.7rem;
+  margin: 0.5rem;
+}
+
+.all-logo svg {
+  width: 0.6rem;
+  fill: #faf6e7;
+}

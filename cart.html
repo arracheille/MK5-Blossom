@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <input type="checkbox" name="" id="toggler" />
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="" class="logo"><img src="img/33.png" alt="" />Blossom</a>
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="category.html">Category</a>
+          <a href="cart.html" style="color: #e6a4b4">My Cart</a>
+          <a href="account.html">Profile</a>
+          <a href="index.html" style="color: #e6a4b4">Sign Out</a>
+        </nav>
+      </header>
+    </section>
+
+    <section class="cart-title">
+      <div class="cart-title-container">
+        <div class="cart-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+            />
+          </svg>
+        </div>
+        <div class="cart-title-text">
+          <div class="header-sections">
+            <p class="header-text">My Cart</p>
+            <p class="body-text">Everything that you add will be displayed here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="select-delete">
+      <div class="select-delete-container">
+        <div class="select-delete-checkbox-label">
+          <input type="checkbox" class="cart-checkbox" />
+          <label for="checkbox">Select All</label>
+        </div>
+        <button class="btn-delete">Delete</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <div class="cart-container">
+        <div class="cart-content">
+          <div class="cart-product">
+            <div class="cart-product-check">
+              <input type="checkbox" class="cart-checkbox" />
+              <img src="img/36.jpg" alt="" />
+            </div>
+            <div class="cart-product-description">
+              <p class="description-type">Necklace</p>
+              <p class="description-name">Rainbow Ruby</p>
+              <div class="description-notes-container">
+                <p class="notes">Color : <span>Random</span></p>
+                <p class="notes">Size : <span>10cm</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-price-delete-quantity">
+            <p class="ori-price">Rp. 70.000</p>
+            <p class="discount">Rp. 58.000</p>
+            <div class="cart-delete-quantity">
+              <i class="fa-solid fa-trash"></i>
+              <div class="product-quantity">
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                  </svg>
+                </div>
+                <div class="quantity-content" style="border-left: none; border-right: none">
+                  <p>0</p>
+                </div>
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-content">
+          <div class="cart-product">
+            <div class="cart-product-check">
+              <input type="checkbox" class="cart-checkbox" />
+              <img src="img/32.jpg" alt="" />
+            </div>
+            <div class="cart-product-description">
+              <p class="description-type">Keychain</p>
+              <p class="description-name">Coquette</p>
+              <div class="description-notes-container">
+                <p class="notes">Color : <span>3 colors</span></p>
+                <p class="notes">Size : <span>10cm</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-price-delete-quantity">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp. 33.000</p>
+            <div class="cart-delete-quantity">
+              <i class="fa-solid fa-trash"></i>
+              <div class="product-quantity">
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                  </svg>
+                </div>
+                <div class="quantity-content" style="border-left: none; border-right: none">
+                  <p>0</p>
+                </div>
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-content">
+          <div class="cart-product">
+            <div class="cart-product-check">
+              <input type="checkbox" class="cart-checkbox" />
+              <img src="img/30.jpg" alt="" />
+            </div>
+            <div class="cart-product-description">
+              <p class="description-type">Bracelet</p>
+              <p class="description-name">Butterfly</p>
+              <div class="description-notes-container">
+                <p class="notes">Color : <span>Blue</span></p>
+                <p class="notes">Size : <span>10cm</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-price-delete-quantity">
+            <p class="ori-price">Rp. 50.000</p>
+            <p class="discount">Rp. 40.000</p>
+            <div class="cart-delete-quantity">
+              <i class="fa-solid fa-trash"></i>
+              <div class="product-quantity">
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                  </svg>
+                </div>
+                <div class="quantity-content" style="border-left: none; border-right: none">
+                  <p>0</p>
+                </div>
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-content">
+          <div class="cart-product">
+            <div class="cart-product-check">
+              <input type="checkbox" class="cart-checkbox" />
+              <img src="img/34.jpg" alt="" />
+            </div>
+            <div class="cart-product-description">
+              <p class="description-type">Rings</p>
+              <p class="description-name">Smiley</p>
+              <div class="description-notes-container">
+                <p class="notes">Color : <span>Blue</span></p>
+                <p class="notes">Size : <span>10cm</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-price-delete-quantity">
+            <p class="ori-price">Rp. 30.000</p>
+            <p class="discount">Rp. 25.000</p>
+            <div class="cart-delete-quantity">
+              <i class="fa-solid fa-trash"></i>
+              <div class="product-quantity">
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                  </svg>
+                </div>
+                <div class="quantity-content" style="border-left: none; border-right: none">
+                  <p>0</p>
+                </div>
+                <div class="quantity-content">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="header-footer">Blossom</p>
+          <p class="text-footer">Blossom, platform eksklusif untuk perhiasan manik-manik cantik. <span>Wanna be pretty? go to Blossom only!</span></p>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">locations</p>
+          <a href="https://goo.gl/maps/jCyYfdPkaFruz9Hf8">purwokerto</a>
+          <a href="https://goo.gl/maps/PZ72CHzw1Hh52Xne9">purbalingga</a>
+          <a href="https://goo.gl/maps/JbuP68CiUU7xZhDu8">cilacap</a>
+          <a href="https://goo.gl/maps/eutioHP34Yq2QGHo7">wonosobo</a>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">our info</p>
+          <a href="#"><i class="fa-solid fa-phone"></i>+6285879334272</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i>blossom@gmail.com</a>
+          <a href="https://instagram.com/aiachaell?igshid=YTQwZjQ0NmI0OA=="><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="https://goo.gl/maps/jCyYfdPkaFruz9Hf8"><i class="fa-brands fa-whatsapp"></i>whatsapp</a>
+        </div>
+        <div class="footer-content">
+          <p class="header-footer">blossom app</p>
+          <img src="img/Blossom App_qrcode.png" alt="" style="width: 7rem" />
+          <a href="https://www.figma.com/file/Jxh2a0FRQZOUt1LD0dKS6s/Untitled?type=design&node-id=0%3A1&mode=design&t=WTKVVZtTAL6jdTkR-1">get our app here</a>
+        </div>
+      </div>
+      <div class="credit">&copy; 2024 Blossom. All rights reserved.</div>
+    </section>
+    <script src="js/product.js"></script>
+  </body>
+</html>
